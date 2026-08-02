@@ -243,21 +243,25 @@ Concepts → Window Functions, CTEs, Conditional Aggregation
 
 ## Repository Structure
 
+```
 funnel-analysis-sql/
 │
 ├── README.md
 ├── data/
-│ └── create_and_insert.sql
+│   └── create_and_insert.sql
 ├── queries/
-│ ├── 01_basic_funnel_count.sql
-│ ├── 02_ordered_funnel.sql
-│ ├── 03_conversion_rate_dropoff.sql
-│ ├── 04_time_bound_funnel.sql
-│ ├── 05_time_to_convert_lag.sql
-│ ├── 06_next_event_lead.sql
-│ ├── 07_segmented_funnel_device.sql
-│ ├── 07b_segmented_funnel_city.sql
-│ ├── 08_user_level_tracking.sql
-│ ├── 09_cohort_funnel.sql
-│ ├── 10_wow_degradation.sql
-│ └── 11_user_level_time_to_convert.sql
+│   ├── 01_basic_funnel_count.sql
+│   ├── 02_ordered_funnel.sql
+│   ├── 03_conversion_rate_dropoff.sql
+│   ├── 04_time_bound_funnel.sql
+│   ├── 05_time_to_convert_lag.sql
+│   ├── 06_next_event_lead.sql
+│   ├── 07_segmented_funnel_device.sql
+│   ├── 07b_segmented_funnel_city.sql
+│   ├── 08_user_level_tracking.sql
+│   ├── 09_cohort_funnel.sql
+│   ├── 10_wow_degradation.sql
+│   └── 11_user_level_time_to_convert.sql
+└── results/
+    └── screenshots of query outputs
+```

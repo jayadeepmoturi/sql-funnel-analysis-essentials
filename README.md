@@ -52,3 +52,5 @@ events (
 ```
 
 ### Funnel Steps
+
+page_view → product_view → add_to_cart → purchase

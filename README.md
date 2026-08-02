@@ -56,13 +56,13 @@ events (
 page_view → product_view → add_to_cart → purchase
 
 ### User Journey Summary
-```
+
 8 users → completed full funnel — converted
 5 users → dropped after add_to_cart
 4 users → dropped after product_view
 3 users → dropped after page_view
 Overall conversion → 40%
-```
+
 
 ---
 
@@ -84,7 +84,7 @@ Overall conversion → 40%
 | 11 | User Level Time to Convert | How long did each converter take | TIMESTAMPDIFF per user |
 
 ---
-```
+
 ## Core SQL Concepts Practiced
 
 ### Window Functions
@@ -173,7 +173,11 @@ Master this template and every other query is just one addition on top of it.
 
 ---
 01_basic_funnel_count.sql
+
+
 ![image_alt](https://github.com/jayadeepmoturi/sql-funnel-analysis-essentials/blob/3cb051a79f5817abb70ff503f31bd718292f43a1/images/query%201%20.png)
+
+
 ## Key Findings From This Dataset
 ```
 Overall funnel conversion → 40% — 8 out of 20 users purchased

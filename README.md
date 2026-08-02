@@ -56,13 +56,13 @@ events (
 page_view → product_view → add_to_cart → purchase
 
 ### User Journey Summary
-
+```
 8 users → completed full funnel — converted
 5 users → dropped after add_to_cart
 4 users → dropped after product_view
 3 users → dropped after page_view
 Overall conversion → 40%
-
+```
 
 ---
 
@@ -84,7 +84,7 @@ Overall conversion → 40%
 | 11 | User Level Time to Convert | How long did each converter take | TIMESTAMPDIFF per user |
 
 ---
-
+```
 ## Core SQL Concepts Practiced
 
 ### Window Functions
@@ -121,7 +121,7 @@ CONCAT → readable transition labels like page_view -> product_view
 
 CTEs → modular query building, one job per CTE
 UNION ALL → stacking step counts into rows for LAG to work
-
+```
 
 ---
 
@@ -172,9 +172,10 @@ FROM pivoted;
 Master this template and every other query is just one addition on top of it.
 
 ---
-
+01_basic_funnel_count.sql
+![image_alt](https://github.com/jayadeepmoturi/sql-funnel-analysis-essentials/blob/3cb051a79f5817abb70ff503f31bd718292f43a1/images/query%201%20.png)
 ## Key Findings From This Dataset
-
+```
 Overall funnel conversion → 40% — 8 out of 20 users purchased
 Biggest drop off step → Purchase — 33.33% drop off rate
 Best performing device → Desktop — 50% vs Mobile — 30%
@@ -184,10 +185,10 @@ Average time to convert → 38.75 minutes
 Biggest friction point → Add to cart to purchase — 18 mins average
 Users to retarget urgently → Users 2, 6, 9, 14, 19 — dropped after cart
 Best performing cohort → Jan 2nd and Jan 3rd — 42.86% conversion
-
+```
 
 ---
-
+```
 ## What I Learned
 Always deduplicate before building a funnel
 Real event data has duplicate events
@@ -217,17 +218,17 @@ Business interpretation matters as much as the query
 A query without an insight is just a number
 An insight without a recommendation is just an observation
 The full chain is — query → result → insight → recommendation
-
+```
 ---
 
 ## How to Run
-
+```
 Step 1 → Install MySQL on your machine
 Step 2 → Open MySQL Workbench or any SQL client
 Step 3 → Run data/create_and_insert.sql to create the database and load data
 Step 4 → Run any query file from the queries folder
 Step 5 → Compare your output with the expected results in each query file
-
+```
 
 ---
 

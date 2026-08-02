@@ -1,4 +1,4 @@
-# sql-funnel-analysis-essentials
+
 # SQL Funnel Analysis — Query Cookbook
 
 ## What This Is
